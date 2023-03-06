@@ -58,7 +58,7 @@ body {
 .link__categories::after{
   content: "";
   display: inline-block;
-  background: url(/img/Frame.svg) 0 center no-repeat;
+  background: url(img/Frame.svg) 0 center no-repeat;
   width: 11px;
   height: 6px;
   margin-left: 13px;
@@ -111,7 +111,7 @@ body {
 .item__sub-m::after {
   content: "";
   display: inline-block;
-  background: url(/img/Frame.svg) 0 center no-repeat;
+  background: url(img/Frame.svg) 0 center no-repeat;
   width: 11px;
   height: 6px;
   margin-left: 53px;
