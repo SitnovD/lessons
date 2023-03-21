@@ -1,0 +1,110 @@
+@import url("reset.css");
+/*------------------------------------------------------------------*/
+[class*="__container"] {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+.wrapper{
+  min-height: 100%;
+}
+
+body{
+  font-family: 'Poppins';   
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.60;
+  color: #9C9C9C;
+}
+.page{
+  padding: 100px 0;
+}
+.page__heading-text {
+  display: flex;
+  flex-direction: column;
+  row-gap:40px;
+  align-items: center;
+  margin-bottom: 53px;
+}
+
+.text__title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.40;
+  color: #000000;
+ max-width: 500px;
+}
+
+.text__subtitle {
+  text-align: center;
+  color: #000000;
+  max-width: 520px;
+}
+
+.page__image{
+  margin-bottom: 100px;
+}
+.page__image img {
+  max-width: 100%;
+}
+
+.page__content-text {
+  display: flex;    
+  margin: 0 -16px 82px -16px;
+}
+
+
+.text-content__item {}
+
+.item {
+  flex: 0 0 50%;
+  padding: 16px;
+  align-items: start;
+}
+
+.item__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.40;
+  color: #333333;
+  margin-bottom: 24px;
+}
+.item__text{
+  margin-bottom: 60px;
+}
+.item__text_p p:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.item__created {
+display: flex;
+gap: 80px;
+}
+
+.created__date {}
+
+.created__name {}
+
+
+
+
+.page__card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+  row-gap: 32px;
+}
+
+.card {}
+
+.card__image:not(:nth-child(3)) {
+  flex: 0 0 50%;
+  padding: 0 16px;
+}
+.card__image:nth-child(3){
+  flex: 0 0 100%;
+  padding: 0 16px;
+}
+.card__image img{
+  max-width: 100%;
+}
